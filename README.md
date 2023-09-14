@@ -23,10 +23,12 @@ Builds the project for production to the dist folder.
 $ yarn build
 ```
 
-## Preview
+## Deploy
 
-Locally preview production build.
-
+Deploy to gh-pages
 ```shell
-$ yarn preview
+$ cd gulp-boilerplate 
+$ rm -rf node_modules/gulp-gh-pages/node_modules/gift
+$ cp -rf node_modules/gift node_modules/gulp-gh-pages/node_modules
+$ yarn deploy
 ```
