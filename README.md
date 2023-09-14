@@ -30,5 +30,7 @@ Deploy to gh-pages
 $ cd gulp-boilerplate 
 $ rm -rf node_modules/gulp-gh-pages/node_modules/gift
 $ cp -rf node_modules/gift node_modules/gulp-gh-pages/node_modules
+```
+```shell
 $ yarn deploy
 ```
